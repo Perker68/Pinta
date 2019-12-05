@@ -15,9 +15,12 @@ app-top-bar {
 }
 
 .page-title {
-    font-family: 'Ropa Sans', sans-serif;
     font-weight: 400;
-    font-size: 5rem;
+    font-size: 8rem;
     letter-spacing: 1rem;
     color: $color-red;
+    -webkit-text-stroke-width: .2rem;
+    -webkit-text-stroke-color: $color-aqua;
+    padding-top: .8rem;
+    text-shadow: 0rem 0rem 1rem rgba($color-black, 1);
 }

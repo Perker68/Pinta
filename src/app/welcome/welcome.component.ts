@@ -3,9 +3,9 @@ import { Component } from '@angular/core';
 import { products } from '../products';
 
 @Component({
-  selector: 'app-product-list',
-  templateUrl: './product-list.component.html',
-  styleUrls: ['./product-list.component.scss']
+  selector: 'app-welcome',
+  templateUrl: './welcome.component.html',
+  styleUrls: ['./welcome.component.scss']
 })
 export class ProductListComponent {
   products = products;
