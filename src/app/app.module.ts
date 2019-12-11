@@ -10,6 +10,7 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { CartComponent } from './cart/cart.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
    imports: [
@@ -20,6 +21,7 @@ import { HttpClientModule } from '@angular/common/http';
          { path: '', component: ProductListComponent },
          { path: 'products/:productId', component: ProductDetailsComponent},
          { path: 'cart', component: CartComponent},
+         { path: 'about', component: AboutComponent},
    ])
 ],
    declarations: [
@@ -28,7 +30,8 @@ import { HttpClientModule } from '@angular/common/http';
       ProductListComponent,
       ProductAlertsComponent,
       ProductDetailsComponent,
-      CartComponent
+      CartComponent,
+      AboutComponent
    ],
    bootstrap: [
       AppComponent

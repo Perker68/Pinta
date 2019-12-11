@@ -5,6 +5,11 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
+  html {
+    font-size: 62.5%; // 1rem = 10 px at 16 browser font
+
+  }
+
   // router-outlet + *  {
   //   padding: 0 16px;
   // }
