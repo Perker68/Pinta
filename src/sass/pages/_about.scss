@@ -12,4 +12,10 @@ app-about {
     padding-top: 1.5rem;
     color: $color-red;
     font-size: $font-size-large;
+    display: block;
+
+    
+    animation: toRight;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
 }

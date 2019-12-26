@@ -11,16 +11,22 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { CartComponent } from './cart/cart.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AboutComponent } from './about/about.component';
+import { VisitComponent } from './visit/visit.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
    imports: [
       BrowserModule,
+      FontAwesomeModule,
       HttpClientModule,
       ReactiveFormsModule,
       RouterModule.forRoot([
          { path: '', component: ProductListComponent },
          { path: 'products/:productId', component: ProductDetailsComponent},
          { path: 'cart', component: CartComponent},
+         { path: 'gallery', component: GalleryComponent},
+         { path: 'visit', component: VisitComponent},
          { path: 'about', component: AboutComponent},
    ])
 ],
@@ -31,7 +37,9 @@ import { AboutComponent } from './about/about.component';
       ProductAlertsComponent,
       ProductDetailsComponent,
       CartComponent,
-      AboutComponent
+      AboutComponent,
+      VisitComponent,
+      GalleryComponent
    ],
    bootstrap: [
       AppComponent

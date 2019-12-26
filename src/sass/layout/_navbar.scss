@@ -23,4 +23,16 @@ app-top-bar {
     -webkit-text-stroke-color: $color-aqua;
     padding-top: .8rem;
     text-shadow: 0rem 0rem 1rem rgba($color-black, 1);
+    text-decoration: none;
+
+    // mixin example (not good. just a working example):
+
+    // @include custColor;
+
+
+    // animation using keyframes:
+
+    animation: toLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
 }

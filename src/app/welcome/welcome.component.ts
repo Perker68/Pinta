@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 import { products } from '../products';
 
@@ -9,6 +10,7 @@ import { products } from '../products';
 })
 export class ProductListComponent {
   products = products;
+  faCoffee = faCoffee;
 
   share() {
     window.alert('The product has been shared!');

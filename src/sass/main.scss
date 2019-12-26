@@ -1,5 +1,7 @@
+@import 'abstracts/mixins';
 @import 'abstracts/variables';
 
+@import 'base/animations';
 @import 'base/base';
 @import 'base/typography';
 
@@ -11,6 +13,8 @@
 
 @import 'pages/about';
 @import 'pages/appComponent';
+@import 'pages/gallery';
+@import 'pages/visit';
 @import 'pages/welcome';
 
 
